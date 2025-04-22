@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  background: linear-gradient(to bottom, #0d0d0d, #1a1a1a);
+  line-height: 1.6;
+}
+
+.hero {
+  height: 100vh;
+  background: radial-gradient(ellipse at center, #222 0%, #000 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  background-image: url('https://www.transparenttextures.com/patterns/dark-mosaic.png');
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, #facc15, #f97316);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  opacity: 0.85;
+}
+
+.section {
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2rem;
+  color: #facc15;
+  margin-bottom: 1rem;
+}
+
+.section p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+footer {
+  padding: 2rem;
+  background: #111;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaa;
+}
