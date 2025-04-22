@@ -4,22 +4,27 @@
   box-sizing: border-box;
 }
 
-body {
+body, html {
+  height: 100%;
   font-family: 'Segoe UI', sans-serif;
   color: #fff;
-  background: linear-gradient(to bottom, #0d0d0d, #1a1a1a);
-  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+.scroll-gradient-bg {
+  background: linear-gradient(180deg, #0f0f0f, #1a1a1a, #111122, #0d0d0d);
+  background-size: 100% 300%;
+  background-position: center 0px;
+  transition: background-position 0.2s ease-out;
 }
 
 .hero {
   height: 100vh;
-  background: radial-gradient(ellipse at center, #222 0%, #000 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   padding: 2rem;
-  background-image: url('https://www.transparenttextures.com/patterns/dark-mosaic.png');
 }
 
 .hero h1 {
@@ -53,6 +58,16 @@ body {
   margin: 0 auto;
   font-size: 1.1rem;
   opacity: 0.9;
+}
+
+.contact a {
+  color: #facc15;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact a:hover {
+  color: #f97316;
 }
 
 footer {
