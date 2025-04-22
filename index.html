@@ -7,30 +7,47 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Hephos Industries</h1>
-      <p>Building next-gen air-breathing propulsion with high-fidelity CFD and additive manufacturing for scalable, affordable missile systems.</p>
-    </div>
-  </section>
+  <div class="scroll-gradient-bg">
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Hephos Aerospace</h1>
+        <p>Building next-gen air-breathing propulsion with high-fidelity CFD and additive manufacturing for scalable, affordable missile systems.</p>
+      </div>
+    </section>
 
-  <section class="section" id="engines">
-    <h2>Our Focus</h2>
-    <p>We’re developing supersonic air-breathing propulsion — exploring ramjets and beyond, with rapid, iterative prototyping to stay ahead.</p>
-  </section>
+    <section class="section" id="engines">
+      <h2>Our Focus</h2>
+      <p>We’re developing supersonic air-breathing propulsion — exploring ramjets and beyond, with rapid, iterative prototyping to stay ahead.</p>
+    </section>
 
-  <section class="section" id="tech">
-    <h2>Our Approach</h2>
-    <p>Using C++ high-fidelity CFD simulations to validate performance, we leverage additive manufacturing to keep capex low and development agile.</p>
-  </section>
+    <section class="section" id="tech">
+      <h2>Our Approach</h2>
+      <p>Using C++ high-fidelity CFD simulations to validate performance, we leverage additive manufacturing to keep capex low and development agile.</p>
+    </section>
 
-  <section class="section" id="applications">
-    <h2>Applications</h2>
-    <p>Our engines are designed for cruise missiles, anti-ship weapons, glide vehicles and other strategic defense platforms.</p>
-  </section>
+    <section class="section" id="applications">
+      <h2>Applications</h2>
+      <p>Our engines are designed for cruise missiles, anti-ship weapons, glide vehicles and other strategic defense platforms.</p>
+    </section>
 
-  <footer>
-    <p>© 2025 Hephos Industries | Engineering the Future of Defense</p>
-  </footer>
+    <section class="section contact" id="contact">
+      <h2>Contact</h2>
+      <p>Want to work with us or invest in the future of propulsion?<br />
+         Reach out: <a href="mailto:contact@hephos.com">contact@hephos.com</a>
+      </p>
+    </section>
+
+    <footer>
+      <p>© 2025 Hephos Aerospace | Engineering the Future of Defense</p>
+    </footer>
+  </div>
+
+  <script>
+    // Scroll-based background shift
+    window.addEventListener('scroll', () => {
+      const bg = document.querySelector('.scroll-gradient-bg');
+      bg.style.backgroundPosition = `center ${window.scrollY * 0.2}px`;
+    });
+  </script>
 </body>
 </html>
