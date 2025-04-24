@@ -4,77 +4,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hephos Aerospace | Advanced Air-Breathing Propulsion</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="bg-wrapper">
-    <div class="bg-grid"></div>
-    <div class="bg-overlay"></div>
-  </div>
+  <!-- Simple Static Background -->
+  <div class="background"></div>
 
-  <nav class="main-nav">
-    <div class="nav-container">
-      <a href="#" class="logo">HEPHOS</a>
-      <div class="nav-links">
+  <!-- Clean Navigation -->
+  <nav>
+    <div class="container">
+      <span class="logo">HEPHOS</span>
+      <div class="nav-items">
         <a href="#technology">Technology</a>
         <a href="#solutions">Solutions</a>
-        <a href="#about">About</a>
-        <a href="#contact" class="cta-button">Contact</a>
+        <a href="#contact">Contact</a>
       </div>
     </div>
   </nav>
 
-  <main>
-    <section class="hero">
-      <div class="hero-content">
-        <h1 data-text="AIR-BREATHING PROPULSION">AIR-BREATHING PROPULSION</h1>
-        <p class="subtitle">Redefining the boundaries of hypersonic flight through computational innovation and additive manufacturing</p>
-        <a href="#technology" class="scroll-arrow">
-          <svg width="30" height="20" viewBox="0 0 30 20" fill="none">
-            <path d="M15 20L0 5L2.5 2.5L15 15L27.5 2.5L30 5L15 20Z" fill="#FACC15"/>
-          </svg>
-        </a>
-      </div>
-    </section>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>AIR-BREATHING PROPULSION</h1>
+      <p class="subtitle">Building next-gen missile propulsion through computational innovation</p>
+    </div>
+  </section>
 
-    <section id="technology" class="content-section">
-      <div class="section-header">
-        <span class="section-number">01</span>
-        <h2>Propulsion Technology</h2>
-      </div>
-      <div class="tech-grid">
-        <div class="tech-card">
-          <div class="tech-icon">⚡</div>
-          <h3>High-Fidelity CFD</h3>
-          <p>Custom C++ solvers for accurate combustion modeling</p>
-        </div>
-        <!-- Add 3 more tech cards -->
-      </div>
-    </section>
+  <!-- Technology Section -->
+  <section id="technology" class="section">
+    <div class="container">
+      <h2>OUR TECHNOLOGY</h2>
+      <p>High-fidelity CFD and additive manufacturing for scalable propulsion systems</p>
+    </div>
+  </section>
 
-    <!-- Additional sections here -->
-
-    <section id="contact" class="contact-section">
-      <div class="contact-container">
-        <h2>Ready to Transform Defense Systems?</h2>
-        <a href="mailto:contact@hephos.com" class="cta-button large">Contact Our Team</a>
-      </div>
-    </section>
-  </main>
+  <!-- Contact Section -->
+  <section id="contact" class="section dark">
+    <div class="container">
+      <h2>CONTACT US</h2>
+      <a href="mailto:contact@hephos.com" class="cta-button">contact@hephos.com</a>
+    </div>
+  </section>
 
   <footer>
-    <div class="footer-content">
-      <div class="footer-logo">HEPHOS AEROSPACE</div>
-      <div class="footer-links">
-        <a href="#">Careers</a>
-        <a href="#">Investors</a>
-        <a href="#">Contact</a>
-      </div>
+    <div class="container">
+      <p>© 2025 Hephos Aerospace. All rights reserved.</p>
     </div>
-    <div class="copyright">© 2025 Hephos Aerospace. All rights reserved.</div>
   </footer>
 
   <script src="script.js"></script>
